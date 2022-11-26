@@ -1,0 +1,72 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-container > div > img{
+    height: 37px;
+    padding-top: 18px;
+}
+.grow-list{
+    width: 50vw;
+    padding-left: 0px;
+}
+.list{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+ .list-item{
+    /* padding: 10px; */
+    text-decoration: none;
+ }
+
+ .button-group .nav-button{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+ }
+
+
+ /* Banner */
+.banner-container{
+    display: flex;
+}
+.heading-text > span{
+    color: blue;
+}
+
+.heading-text{
+    padding-top: 50px;
+    font-size: 50px;
+    padding-left: 106px;
+    /* margin-left: 70px; */
+}
+
+.description{
+    padding-left: 106px;
+}
+
+.banner-container > div > button{
+    margin-left: 100px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
