@@ -7,9 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Vs Code</title>
   </head>
-  <body class="bg-zinc-800">
+  <body>
     <!-- NavBar -->
-    <section aria-label="navbar" class="text-white flex h-[8vh]">
+    <section aria-label="navbar" class="text-white flex h-[8vh] bg-zinc-800">
       <div class="left-navbar flex w-[60vw] ml-20">
         <button>
           <img
@@ -55,7 +55,7 @@
     </section>
 
     <!-- Main -->
-    <section aria-label="main" class="h-[550px]">
+    <section aria-label="main" class="h-[550px] bg-zinc-800">
       <div class="h-10 bg-stone-900 text-white text-center pt-2.5 text-center">
         <a href="" class="text-blue-500">Version 1.73</a> is now available! Read
         about the new features and fixes from November.
@@ -141,6 +141,62 @@
     </section>
 
     <!-- Testimonials -->
-    <section aria-label="testimonials"></section>
+    <section aria-label="testimonials" class="bg-gray-200 flex justify-evenly h-[300px]">
+      <div class="flex pt-14">
+        <div class="pt-2">
+          <img
+            class="h-[50px] rounded-xl"
+            src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/Una.jpg"
+          />
+        </div>
+        <div class="pt-3 pl-2">
+          <p><strong>Una Kravets</strong> &#x40;una</p>
+          <textarea
+            disabled="yes"
+            style="resize: none"
+            class="h-40 w-80 text-left bg-gray-200"
+          >
+VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace/user preferences are no exception. 🙌🏼💯 It just keeps getting better ❤️
+        </textarea
+          >
+        </div>
+      </div>
+
+      <div class="flex pt-14">
+        <div class="pt-2">
+          <img class="h-[50px] rounded-xl" src="./Abhi.jpeg" />
+        </div>
+        <div class="pt-3 pl-2">
+          <p><strong>Abhiraj Sinha</strong> &#x40;abhi</p>
+          <textarea
+            disabled="yes"
+            style="resize: none"
+            class="h-40 w-80 text-left bg-gray-200"
+          >
+VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!
+        </textarea
+          >
+        </div>
+      </div>
+      <div class="flex pt-14">
+        <div class="pt-2">
+          <img
+            class="h-[50px] rounded-xl"
+            src="https://code.visualstudio.com/assets/socialproof/twitterprofiles/jadbox.jpg"
+          />
+        </div>
+        <div class="pt-3 pl-2">
+          <p><strong>Jonathan Dunlap</strong> &#x40;john</p>
+          <textarea
+            disabled="yes"
+            style="resize: none"
+            class="h-40 w-80 text-left bg-gray-200"
+          >
+VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥
+        </textarea
+          >
+        </div>
+      </div>
+    </section>
   </body>
 </html>
