@@ -1,4 +1,4 @@
-function Page() {
+function Header() {
   return (
     <div>
       <header>
@@ -6,6 +6,13 @@ function Page() {
           <img src="./React.png" width="80px"></img>
         </nav>
       </header>
+    </div>
+  );
+}
+
+function MainContent() {
+  return (
+    <div>
       <h1>Fun Facts, that not really a FUN !</h1>
       <ul>
         <li>
@@ -26,9 +33,25 @@ function Page() {
           </strong>
         </li>
       </ul>
-      <footer>
-        <small>2022 Abhiraj development. All right reserved</small>
-      </footer>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      <small>2022 Abhiraj development. All right reserved</small>
+    </footer>
+  );
+}
+
+//Parent Component
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
