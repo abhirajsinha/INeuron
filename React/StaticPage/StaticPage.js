@@ -1,14 +1,5 @@
-function Header() {
-  return (
-    <div>
-      <header>
-        <nav>
-          <img src="./React.png" width="80px"></img>
-        </nav>
-      </header>
-    </div>
-  );
-}
+import Header from './Header'
+import Footer from './Footer';
 
 function MainContent() {
   return (
@@ -37,23 +28,15 @@ function MainContent() {
   );
 }
 
-function Footer() {
-  return (
-    <footer>
-      <small>2022 Abhiraj development. All right reserved</small>
-    </footer>
-  );
-}
-
 //Parent Component
-function Page() {
+function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <MainContent />
       <Footer />
     </div>
   );
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
