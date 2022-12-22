@@ -25,7 +25,7 @@ const upperCase = names.map((name)=>{
 })
 
 
-###Given an array of strings, return an array like this
+### Given an array of strings, return an array like this
 const pokemon = ["Bulbul", "TajMahal", "Nartuo"]
 
 ##### Like this
