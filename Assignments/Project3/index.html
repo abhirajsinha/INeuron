@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Credit Card Page</title>
+  </head>
+  <body class="bg-[rgb(21,21,21)]">
+    <!-- NavBar -->
+    <nav class="pt-4 flex flex-row justify-around">
+      <a href=""><img src="./Assets/Icons/Logo.svg" alt="Nav-logo" /></a>
+
+      <div class="pt-4 flex flex-row text-white">
+        <ul class="flex flex-row justify-around gap-5">
+          <a href=""><li>Home</li></a>
+          <a href=""><li>Features</li></a>
+          <a href=""><li>Pricing</li></a>
+          <a href=""><li>About Us</li></a>
+        </ul>
+      </div>
+
+      <div class="pt-4 flex flex-row gap-6 text-white">
+        <div class="flex flex-row gap-5">
+          <a href=""><span>Eng</span></a>
+          <a href=""
+            ><span class="ht-[5px]"><i class="fa-solid fa-angle-down"></i></span
+          ></a>
+        </div>
+        <div class="flex flex-row relative">
+          <a href=""
+            ><span><img src="./Assets/Icons/btn-pink-bg.svg" /></span
+          ></a>
+          <a href=""
+            ><span class="text-white absolute w-[90px] left-6"
+              >ContactUs</span
+            ></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="pt-20 w-[100vw] flex flex-column justify-center justify-around text-[#fff]"
+    >
+      <!-- Left Part -->
+      <div class="ml-[8rem]">
+        <h1 class="text-7xl w-[750px]">
+          Simplify All Transactions in
+          <span class="text-[#F637EC] font-medium">One Card</span>
+        </h1>
+        <p class="mt-10 text-[20px] w-[550px]">
+          Hurry up and join now, with this you can manage your daily finances
+          easily and safely.
+        </p>
+
+        <div class="pt-15 flex items-center relative my-16">
+          <span
+            ><img class="h-[40px]" src="./Assets/Icons/btn-pink-bg.svg"
+          /></span>
+          <span class="ml-5 left-3 absolute text-[25px]"> <a href="">GET STARTED</a></span>
+          <img class="w-[70px] pl-10" src="./Assets/Icons/RightArrow.svg" />
+        </div>
+
+        <div class="flex flex-column gap-5">
+          <div class="flex flex-column gap-5">
+            <h1 class="text-4xl mt-1">
+              42K <span class="text-[#F637EC]">+</span>
+            </h1>
+            <div class="mb-4 text-[15px]">
+              <h1>Happy</h1>
+              <h1>Active User</h1>
+            </div>
+          </div>
+          <img src="./Assets/Icons/Vector 402.svg">
+          <div class="flex flex-column gap-5">
+            <h1 class="text-4xl mt-1">
+              12K <span class="text-[#F637EC]">+</span>
+            </h1>
+            <div class="mb-4 text-[15px]">
+              <h1>Years</h1>
+              <h1>Experience</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-[100vw]">
+        <img
+          class="pb-20 overflow-auto relative preflight"
+          src="./Assets/Photos/frontCards.png"
+        />
+        <!-- <img class="pb-20 overflow-auto absolute" src="./Assets/Photos/frontCards.png"> -->
+      </div>
+    </section>
+  </body>
+</html>

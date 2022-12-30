@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav--options{
+    gap: 5;
+}
+
+nav{
+    display: flex;
+}
+
+.options{
+    display: flex;
+    list-style: none;
+    gap: 5;
+}
+
+.contact--nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact{
+    display: flex;
+    list-style: none;
+}
+
