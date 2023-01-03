@@ -10,15 +10,8 @@ function App() {
     return (
       <Card
         key={item.id}
-        id={item.id}
-        title={item.title}
-        description={item.description}
-        price={item.price}
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
-        openSpots={item.openSpots}
+        item={item}
+        // Spread Syntax to pass objects as props - {...item}
       />
     );
   });
