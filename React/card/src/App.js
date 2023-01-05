@@ -1,5 +1,5 @@
 import React from "react";
-
+import Star from "./Star";
 export default function App() {
   //Class Based React
   const [contact, setContact] = React.useState({
@@ -7,7 +7,7 @@ export default function App() {
     lastName: "Sinha",
     phone: "+91 821 033 7603",
     email: "abhirajsinha25@gmail.com",
-    isFavorite: false,
+    isFavorite: true,
   });
   /**
    * Challenge: Fill in the values in the markup
@@ -30,11 +30,7 @@ export default function App() {
       <article className="card">
         <img src="./images/profile.png" className="card--image" />
         <div className="card--info">
-          <img
-            src={`./images/${starIcon}`}
-            className="card--favorite"
-            onClick={toggleFavorite}
-          />
+          <Star isFilled={contact.isFavorite} handleClick={toggleFavorite}/>
           <h2 className="card--name">
             {contact.firstName} {contact.lastName}
           </h2>
