@@ -1,2 +1,2 @@
-![Alt text](./one.png)
-![Alt text](./two.png)
+![Alt text](One.png)
+![Alt text](two.png)
