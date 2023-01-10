@@ -1,13 +1,18 @@
 import React from 'react'
 
-function jokes(props) {
+function Jokes(props) {
+  const [isShown, setIsShown] = React.useState(true);
+  function toggleShown(){
+        setIsShown(prevShown => !prevShown)
+  }
   return (
     <div>
         {props.setup && <h3>{props.setup}</h3>}
-        <p>{props.punchline}</p>
+        {isShown && <p>{props.punchline}</p>}
+        <button onClick={toggleShown}>{isShown ? 'Reset Joke': 'See Joke'}</button>
         <hr/>
     </div>
   )
 }
 
-export default jokes
+export default Jokes
