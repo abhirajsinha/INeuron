@@ -5,9 +5,10 @@ const Forms = () => {
     firstName: "",
     lastName: "",
     email: "",
+    Comments: "",
   });
 
-  console.log(formData);
+  console.log(formData.Comments);
 
   function handleChange(event) {
     setFormData((prevFormData) => {
@@ -40,6 +41,12 @@ const Forms = () => {
         onChange={handleChange}
         name="email"
         value={formData.email}
+      />
+      <textarea
+        value={formData.Comments}
+        placeholder="Comments"
+        onChange={handleChange}
+        name="Comments"
       />
       <button type="">Submit</button>
     </form>
