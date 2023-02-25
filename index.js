@@ -1,4 +1,3 @@
-
 getX();
 getF();
 
@@ -7,11 +6,11 @@ function getX() {
   function getY() {
     console.log(x);
   }
-  x=70;
+  x = 70;
   getY();
   return getY;
 }
 
-var getF = function(){
-    console.log("Hii from F");
-}
+var getF = function () {
+  console.log("Hii from F");
+};
