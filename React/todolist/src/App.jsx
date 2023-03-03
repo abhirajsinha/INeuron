@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Todo from './Components/Todo'
+import { useState } from "react";
+import Particle from "./Components/Particle";
+import reactLogo from "./assets/react.svg";
+import Todo from "./Components/Todo";
+import TodoWrapper from "./Components/TodoWrapper";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div>
-      <Todo/>  
-    </div>
-  )
+    <>
+      <Particle />
+      <TodoWrapper />
+    </>
+  );
 }
 
-export default App
+export default App;
