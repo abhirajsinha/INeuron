@@ -85,25 +85,12 @@ function Particle() {
           opacity: {
             value: 0.5,
           },
-          "size": {
-            "value": 25,
-            "random": true,
-            "anim": {
-              "enable": true,
-              "speed": 20,
-              "size_min": 10,
-              "sync": false
-            }
+          shape: {
+            type: "triangle",
           },
-          "line_linked": {
-            "enable": false
+          size: {
+            value: { min: 1, max: 5 },
           },
-          "move": {
-            "enable": true,
-            "speed": 3,
-            "direction": "none",
-            "straight": false
-          }
         },
         detectRetina: true,
       }}
