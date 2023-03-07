@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-top: 20%;
+    margin-left:  50%;
+}
+
+.button{
+    /* margin-top: 0%; */
+    margin-top: 2px;
+    margin-left: 50%;
+}
+
+.par{
+    color: white;
+}
+
+.visible{
+    visibility: true;
+}
+
+.invisible{
+    visibility: hidden;
+}
