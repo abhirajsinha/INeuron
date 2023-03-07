@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <h1>Weather App</h1>
-        <input>Submit</form>
-    </form>
+    <div id="box">
+        <button onclick="handleOk()">OK</button>
+        <button id="cancelBtn" onclick="handleCancel()">Cancel</button>
+    </div>
+    <button onclick="handleClick()" class="button">Button</button>
+    <script>
+        function handleOk(){
+            alert("Clicked Okay!")
+        }
+
+        function handleCancel(){
+           document.querySelector('#cancelBtn').style.visibility = "hidden";
+        }
+
+        function handleClick(){
+           document.querySelector('#cancelBtn').style.visibility = "visible";
+
+            document.body.style.backgroundColor = "rgba(0,0,255,0.7)";
+        }
+    </script>
 </body>
 </html>
