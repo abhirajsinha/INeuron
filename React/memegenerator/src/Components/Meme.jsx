@@ -8,6 +8,7 @@ const Meme = () => {
     const url = memesArray[randomNumber].url;
   }
 
+
   return (
     <main>
       <div className="form">
@@ -16,6 +17,7 @@ const Meme = () => {
         <button className="form--button" onClick={getMemeImage}>
           Get a new meme Image 🗺️
         </button>
+
       </div>
     </main>
   );
