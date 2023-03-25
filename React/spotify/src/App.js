@@ -1,17 +1,14 @@
-import React from 'react';
-import { Counter } from './features/counter/Counter';
-import LeftSection from './Components/LeftSection';
-import ImageSlider from './Components/ImageSlider';
-import images from './images';
-import "./Style.css"
+import React from "react";
+import { Counter } from "./features/counter/Counter";
+import LeftSection from "./Components/LeftSection";
+import ImageSlider from "./Components/ImageSlider";
+import MadeForYou from "./Components/MadeForYou";
+import images from "./images";
+import madeForYou from "./Madeforyou";
+import "./Style.css";
 
 function App() {
-  return (
-    <div className="app">
-      <LeftSection/>
-      <div className="main"><ImageSlider images={images}/></div>
-    </div>
-  );
+  return <ImageSlider images={images} />;
 }
 
 export default App;

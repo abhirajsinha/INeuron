@@ -3,45 +3,71 @@ body {
     background-color: black;
 }
 
-.app{
+.tag {
+    text-align: center;
+}
+
+.slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.imgslider{
     display: flex;
-    /* height: 50%;
-    width: 50%; */
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
+    justify-items: center;
+    align-items: center;
 }
-
-.left-section{
-    width: 15%;
-}
-
 
 /* Main Setion */
 .main{
-    width: 60%;
-    /* margin-left: 25%; */
+    /* width: 80%;
+    margin-left: 25%; */
 }
 
 .carasoule--items{
     display: flex;
+    justify-content: space-evenly;
+    max-width: 630px;
     color: white;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .carasoule--imgaes{
-    height: 40px;
-    width: 40px;
+    /* height: 40px;
+    width: 40px; */
 }
 
 .carasoule--texts{
-    margin-right: 230px;
+    /* margin-right: 230px; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 button{
     height: 40px;
     width: 80px;
     border: 2px solid;
-    background-color: green;
+    background-color: lightgreen;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -50,6 +76,57 @@ button:hover {
     border: 2px solid white;
     border-radius: 10px;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .madeforyou--section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    margin: 0px 10px 0px 10px;
+ }
+
+ .mdf-image{
+    border-radius: 10px;
+    margin-top: 50px;
+ }
+
+ .mdf--headings{
+    width: 150px;
+    margin-bottom: 50px;
+ }
+
+ .mdf-cont{
+    position: relative;
+ }
+
+ .mdf-cont p{
+    position: absolute;
+    top: 5px;
+ }
+
 .tag {
     text-align: center;
 }
@@ -62,4 +139,21 @@ button:hover {
 
 .left-section ul li{
     color: white;
+} */
+
+
+
+
+/* .mainMain{
+    display: flex;
 }
+
+.inner1{
+    width: 30%;
+    margin-right: -200px;
+    line-height: 35px;
+}
+
+.inner2{
+    width: 70%;
+} */
